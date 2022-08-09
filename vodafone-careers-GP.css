@@ -3,3 +3,12 @@
     height: 100%;
     width: 100%;
 }
+
+.text-banner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    margin: 0 auto;
+    padding-inline-start: 25rem;
+}
