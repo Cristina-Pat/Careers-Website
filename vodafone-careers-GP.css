@@ -7,9 +7,9 @@
 .text-banner {
     position: absolute;
     top: 16%;
-    color: #fff;
+    color: #fdfefd;
     margin: 0 auto;
-    padding-inline-start: 25rem;
+    padding-inline-start: 16rem;
 }
 h1 {
     font-family: Arial, Helvetica, sans-serif;
