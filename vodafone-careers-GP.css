@@ -42,20 +42,19 @@ h1 {
     height: 20rem;
     margin-top: 2px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
 }
 
 .photo-domains,
 .text-domains {
-    border: 2px solid #fff;
+    margin: 3px;
+    flex: 50%;
 }
 
 .photo-domains {
     background-color: #73a24e;
-    flex: 50%;
 }
 
 .text-domains {
     background-color: #a9c25d;
-    flex: 50%;
 }
