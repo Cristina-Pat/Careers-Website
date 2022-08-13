@@ -92,3 +92,9 @@ footer {
     background-color: #39395f;
     height: 7rem;
 }
+
+@media (max-width: 426px) {
+    .domains {
+        flex-direction: column;
+    }
+}
