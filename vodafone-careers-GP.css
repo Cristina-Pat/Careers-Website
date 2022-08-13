@@ -10,8 +10,7 @@ main {
     background-color: #f5eec2;
 }
 
-.text-content,
-.news {
+.text-content {
     height: 17rem;
     background-color: #e2d05e;
 }
@@ -59,6 +58,12 @@ h1 {
     background-color: #a9c25d;
 }
 
+.news {
+    height: 17rem;
+    background-color: #d0b921;
+    margin-bottom: 2px;
+}
+
 .video-presentation {
     height: 25rem;
     background-color: #477225;
@@ -74,6 +79,12 @@ h1 {
 .accreditations {
     height: 20rem;
     background-color: #bba725;
+    margin-bottom: 2px;
+}
+
+.breadcrumbs {
+    background-color: #656594;
+    height: 2rem;
     margin-bottom: 2px;
 }
 
