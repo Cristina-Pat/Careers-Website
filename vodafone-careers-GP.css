@@ -64,12 +64,14 @@ img {
 }
 
 h3 {
+    max-width: 570px;
     margin: 3px 17px 10px;
     font-size: 3.5rem;
     line-height: 4.5rem;
     font-weight: 350;
 }
 h4 {
+    max-width: 570px;
     margin: 7px 17px 17px;
     font-size: 1.65rem;
     line-height: 2.3rem;
