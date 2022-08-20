@@ -5,6 +5,11 @@ header {
     background-color: #39395f;
 }
 
+.logo,
+.logo img {
+    max-width: 4.8rem;
+}
+
 main {
     width: 100%;
     background-color: #f5eec2;
@@ -54,6 +59,7 @@ h1 {
 .photo-domains {
     background-color: #73a24e;
 }
+
 img {
     display: block;
     margin-left: auto;
@@ -70,6 +76,7 @@ h3 {
     line-height: 4.5rem;
     font-weight: 350;
 }
+
 h4 {
     max-width: 570px;
     margin: 7px 17px 17px;
@@ -77,6 +84,7 @@ h4 {
     line-height: 2.3rem;
     font-weight: 175;
 }
+
 .news {
     height: 17rem;
     background-color: #d0b921;
