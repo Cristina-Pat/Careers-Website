@@ -4,11 +4,6 @@ header {
     margin-bottom: 2px;
     background-color: #39395f;
 }
-@media only screen and (max-width: 600px) {
-    header {
-    background-color: none;
-}
-}
 
 .logo,
 .logo img {
@@ -128,13 +123,19 @@ footer {
     height: 7rem;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 600px) {
+    header {
+        background-color: none;
+    }
+    .logo img {
+        max-width: 3.5rem;
+    }
     .domains {
         flex-direction: column;
     }
 }
 
-@media (max-width: 1150px) {
+@media (max-width: 850px) {
     .photo-domains img {
         width: 470px;
         height: 342px;
