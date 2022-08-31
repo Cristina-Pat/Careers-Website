@@ -1,6 +1,7 @@
 body {
     margin: 0px;
 }
+
 header {
     width: 100%;
     height: 5rem;
@@ -46,50 +47,48 @@ h1 {
 }
 
 .domains {
-    width: 100%;
-    /*height: 20rem;*/
     margin-top: 2px;
     display: flex;
     flex-direction: row;
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid #bababa;
 }
 
 .photo-domains,
 .text-domains {
-    margin: 3px;
-    flex: 50%;
+    margin-top: 16px;
+    flex: 1;
 }
 
 .photo-domains {
-    background-color: #73a24e;
-    width: 570px;
-    min-height: 420px;
+    /*background-color: #73a24e;*/
 }
 
 img {
+    width: 100%;
     display: block;
     margin-left: auto;
+    margin-top: 17px;
 }
 
 .text-domains {
-    background-color: #a9c25d;
-    min-width: 600px;
-    display: block;
+    /*background-color: #a9c25d;*/
     margin-right: auto;
 }
 
 h3 {
-    max-width: 570px;
     margin: 3px 17px 10px;
-    font-size: 3.5rem;
-    line-height: 4.5rem;
+    font-size: 3.2rem;
+    line-height: 4.2rem;
     font-weight: 350;
 }
 
-h4 {
-    max-width: 570px;
+p {
     margin: 7px 17px 17px;
-    font-size: 1.65rem;
-    line-height: 2.3rem;
+    font-size: 1.35rem;
+    line-height: 2.2rem;
     font-weight: 175;
 }
 
@@ -140,9 +139,8 @@ footer {
     }
     .photo-domains img {
         width: 100%;
-        height: 100%;
     }
-    .text-domains h3, 
+    .text-domains h3,
     .text-domains h4 {
         margin: 0px;
     }
@@ -150,13 +148,11 @@ footer {
 
 @media (max-width: 850px) {
     .text-domains h3 {
-        max-width: 370px;
         font-size: 2.5rem;
         line-height: 4rem;
         font-weight: 300;
     }
-    .text-domains h4 {
-        max-width: 370px;
+    .text-domains p {
         font-size: 1.1rem;
         line-height: 1.8rem;
         font-weight: 125;
