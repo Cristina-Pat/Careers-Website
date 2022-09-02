@@ -22,13 +22,14 @@ main {
 }
 .banner-background {
     background-image: url(images/header-career-1920265.png);
-    height: 265px;
+    background-size: cover;
 }
 .banner-text {
-    color: #fdfefd;
+    color: #394064;
     margin: 0 auto;
-    padding-inline-start: 20rem;
-    padding-top: 20%;
+    padding-inline-start: 21rem;
+    padding-top: 4rem;
+    padding-bottom: 3rem;
 }
 .text-content {
     height: 17rem;
