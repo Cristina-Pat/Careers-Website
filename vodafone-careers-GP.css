@@ -13,23 +13,26 @@ header {
 .logo img {
     max-width: 4.8rem;
 }
-
 main {
     width: 100%;
     background-color: #f5eec2;
 }
-
-.text-content {
-    height: 17rem;
-    background-color: #e2d05e;
+.banner {
+    margin: 0px;
 }
-
-.text-banner {
-    position: absolute;
-    top: 20%;
+.banner-background {
+    background-image: url(images/header-career-1920265.png);
+    height: 265px;
+}
+.banner-text {
     color: #fdfefd;
     margin: 0 auto;
     padding-inline-start: 20rem;
+    padding-top: 20%;
+}
+.text-content {
+    height: 17rem;
+    background-color: #e2d05e;
 }
 
 h1 {
