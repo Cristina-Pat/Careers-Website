@@ -41,9 +41,17 @@ main {
     line-height: 4rem;
 }
 
+p {
+    margin: 7px 17px 17px;
+    font-size: 1.35rem;
+    line-height: 2.2rem;
+    font-family: sans-serif;
+}
+
 .text-content {
     text-align: center;
-    background-color: #e2d05e;
+    max-width: 980px;
+    margin: 17px auto;
 }
 
 .highlighted-text,
@@ -51,11 +59,20 @@ main {
     font-weight: bold;
 }
 
+.edit a {
+    text-decoration: none;
+    color: black;
+}
+
+.edit a:hover {
+    color: #bba725;
+}
+
 .domains,
 .photo-domains,
 .text-domains {
     box-sizing: border-box;
-    font-family: sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .domains {
@@ -95,13 +112,6 @@ h3 {
     font-size: 3.2rem;
     line-height: 4.2rem;
     font-weight: 350;
-}
-
-p {
-    margin: 7px 17px 17px;
-    font-size: 1.35rem;
-    line-height: 2.2rem;
-    font-weight: 175;
 }
 
 .news {
