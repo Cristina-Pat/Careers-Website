@@ -42,8 +42,13 @@ main {
 }
 
 .text-content {
-    height: 17rem;
+    text-align: center;
     background-color: #e2d05e;
+}
+
+.highlighted-text,
+.edit a {
+    font-weight: bold;
 }
 
 .domains,
