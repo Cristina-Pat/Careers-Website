@@ -21,7 +21,7 @@ header {
 
 main {
     width: 100%;
-    background-color: #f5eec2;
+    background-color: #fcfaf0;
 }
 
 .banner {
@@ -70,7 +70,35 @@ p {
 }
 
 .edit a:hover {
-    color: #bba725;
+    color: #e66e29;
+}
+
+.content-buttons {
+    display: inline-block;
+}
+
+.platform-button,
+.faqs-button {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: #f4f4f6;
+    font-family: sans-serif;
+}
+
+.platform-button {
+    padding: 0 1.95rem;
+}
+
+.button {
+    display: inline-block;
+    background: #39395f;
+    padding: 1rem 3.5rem 0.9rem;
+    border: none;
+    margin: 2px auto;
+}
+
+.button:hover {
+    background: #656594;
 }
 
 .domains,
