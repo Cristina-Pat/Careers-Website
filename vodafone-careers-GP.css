@@ -8,7 +8,6 @@ body {
 }
 
 header {
-    width: 100%;
     margin-bottom: 2px;
     background-color: #39395f;
     display: flex;
@@ -36,6 +35,16 @@ header {
     font-size: 1.5rem;
     line-height: 2rem;
     font-family: sans-serif;
+}
+
+.action-buttons {
+    margin: auto 0px;
+}
+
+.action_button {
+    color: #f4f4f6;
+    padding-right: 2rem;
+    font-size: 3rem;
 }
 
 main {
